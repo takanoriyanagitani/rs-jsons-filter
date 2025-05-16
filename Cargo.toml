@@ -1,0 +1,17 @@
+[package]
+name = "rs-jsons-filter"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "forbid"
+
+[dependencies.serde_json]
+version = "1.0.140"
+default-features = false
+features = [
+	"std",
+]
